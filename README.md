@@ -2,6 +2,10 @@
 Attempt to fix EffectUI's sound bug, where if you leave a group multiple group leaving sounds will play simultaneously.  
 Do NOT install the mod if you are not running EffectsUI
 
+### How it works  
+Sound seems to be tied to the Team object itself.  
+Instead of creating new Team objects we cache the Team TeamInterface sends and provide that to EffectsUI  
+
 ### Download
 Downloads are at the [releases page](https://github.com/MakeMods/GroupLeaveFix/releases)  
 Download the GroupLeaveFix-vX.X.X.zip files, not the source code  
