@@ -1,5 +1,6 @@
 # GroupLeaveFix
 Attempt to fix EffectUI's sound bug, where if you leave a group multiple group leaving sounds will play simultaneously.  
+Do NOT install the mod if you are not running EffectsUI
 
 ### Download
 Downloads are at the [releases page](https://github.com/MakeMods/GroupLeaveFix/releases)  
