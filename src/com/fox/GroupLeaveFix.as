@@ -62,7 +62,7 @@ class com.fox.GroupLeaveFix
 		}
 		signallers.CharacterSignalWrapper.prototype.GetTeam = f;
 
-	// GetEveryBody creates a new Team object
+	// GetEveryBody creates a new Team object temporarily, it might not get garbage collected right away
 		var org2 = signallers.EverybodyEnumerator.prototype.GetEverybody;
 		var getEverybody:Function = function()
 		{
