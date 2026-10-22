@@ -69,7 +69,7 @@ class com.fox.GroupLeaveFix
 			var id:ID32 = CharacterBase.GetClientCharID();
 			if ( !GroupLeaveFix.team || TeamInterface.IsInRaid(id) || !TeamInterface.IsInTeam(id))
 			{
-				// doesn't trigger with raids for some reason?
+				// if player is in raid effectsUI gets team members through signallers.RaidEnumerator.Instance instead
 				return org2.apply(this, arguments);
 			}
 			var members:Array = new Array();
