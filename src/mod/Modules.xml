@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+  <Module  name = "GroupLeaveFix"
+    movie       = "GroupLeaveFix\GroupLeaveFix.swf"
+    flags       = "GMF_DONT_UNLOAD"
+    depth_layer = "Top"
+    sub_depth   = "2"
+    variable    = "GroupLeaveFix"
+    criteria    = "GroupLeaveFix &amp;&amp; (guimode &amp; (GUIMODEFLAGS_INPLAY | GUIMODEFLAGS_ENABLEALLGUI))"
+  />
+</Root>
