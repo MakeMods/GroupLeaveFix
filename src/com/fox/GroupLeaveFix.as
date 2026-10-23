@@ -76,7 +76,7 @@ class com.fox.GroupLeaveFix
 			for (var i:Number = 0; i < 5; i++)
 			{
 				var memberId:ID32 = GroupLeaveFix.team.GetTeamMemberID(i);
-				if ( memberId != null && memberId.IsNull()) members.push(Character.GetCharacter(memberId));
+				if ( memberId != null && !memberId.IsNull()) members.push(Character.GetCharacter(memberId));
 			}
 			return members;
 		}
